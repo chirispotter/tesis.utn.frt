@@ -90,7 +90,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         lblMensaje = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Pablo");
+        setTitle("Walter");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
