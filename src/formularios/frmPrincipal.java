@@ -90,7 +90,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         lblMensaje = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Cristian");
+        setTitle("Pablo");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -340,7 +340,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 204));
-        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mensajes de Contexto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(102, 102, 102)));
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mensajes de Contexto", 0, 0, null, new java.awt.Color(102, 102, 102)));
 
         lblMensaje.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblMensaje.setForeground(new java.awt.Color(102, 102, 102));
