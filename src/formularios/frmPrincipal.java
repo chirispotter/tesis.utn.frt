@@ -90,6 +90,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         lblMensaje = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Cristian");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -121,7 +122,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         jPanel7.setLayout(new java.awt.GridLayout(4, 1));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Nombre");
         jPanel7.add(jLabel4);
 
@@ -129,11 +130,11 @@ public class frmPrincipal extends javax.swing.JFrame {
         jLabel5.setText("Apellido");
         jPanel7.add(jLabel5);
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel6.setText("DNI");
         jPanel7.add(jLabel6);
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 14));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel17.setText("Dedo");
         jPanel7.add(jLabel17);
 
@@ -251,7 +252,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                     .addComponent(chkDeshabilitarLog)
                     .addComponent(btnLimpiarLog))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 154, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 155, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -339,7 +340,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 204));
-        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mensajes de Contexto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(102, 102, 102))); // NOI18N
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mensajes de Contexto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(102, 102, 102)));
 
         lblMensaje.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblMensaje.setForeground(new java.awt.Color(102, 102, 102));
@@ -368,7 +369,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 618, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
